@@ -14,6 +14,7 @@ import type { Lang } from "../../lib/i18n";
 import { getLanguage, subscribeLanguage } from "../../lib/i18n";
 
 import heroImg from "../../assets/img/hero.jpeg";
+import heroCoverImg from "../../assets/img/hero_cover.webp";
 import aboutImg from "../../assets/img/about.jpeg";
 import footerImg from "../../assets/img/footer.jpeg";
 import productBlackImg from "../../assets/img/product_black.jpeg";
@@ -41,7 +42,7 @@ const HOME_CONTENT: Record<Lang, HomeBundle> = {
       highlight: "The Ultimate Mixers for Beer & Cocktails.",
       description:
         "Discover a World of New Intense Flavors. Three signature blends — Black, Prep and Mix — crafted to turn any cold beer into a bold, savory michelada.",
-      image: { src: heroImg, alt: "Franky's Michelados — Beer & Cocktail Mixer" },
+      image: { src: heroCoverImg, alt: "Franky's Michelados — Beer & Cocktail Mixer" },
       ctaPrimary: { url: "#contact", title: "Contact us" },
       ctaSecondary: { url: "#products", title: "See products" },
       badges: ["Special Condiments Blend", "Made in Mexico", "Beer & Cocktail Mixer"],
@@ -181,7 +182,7 @@ const HOME_CONTENT: Record<Lang, HomeBundle> = {
       highlight: "Los mejores mezcladores para cerveza y cocteles.",
       description:
         "Descubre un mundo de nuevos sabores intensos. Tres mezclas de la casa — Black, Prep y Mix — creadas para convertir cualquier cerveza fría en una michelada intensa y llena de sabor.",
-      image: { src: heroImg, alt: "Franky's Michelados — mezclador para cerveza y cocteles" },
+      image: { src: heroCoverImg, alt: "Franky's Michelados — mezclador para cerveza y cocteles" },
       ctaPrimary: { url: "#contact", title: "Contáctanos" },
       ctaSecondary: { url: "#products", title: "Ver productos" },
       badges: ["Mezcla especial de condimentos", "Hecho en México", "Mezclador para cerveza y cocteles"],
