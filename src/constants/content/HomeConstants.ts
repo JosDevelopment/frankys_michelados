@@ -14,7 +14,7 @@ import type { Lang } from "../../lib/i18n";
 import { getLanguage, subscribeLanguage } from "../../lib/i18n";
 
 import heroImg from "../../assets/img/hero.jpeg";
-import heroCoverImg from "../../assets/img/hero_cover.webp";
+import heroCoverImg from "../../assets/img/hero_cover.gif";
 import aboutImg from "../../assets/img/about.jpeg";
 import footerImg from "../../assets/img/footer.jpeg";
 import productBlackImg from "../../assets/img/product_black.jpeg";
